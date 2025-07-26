@@ -19,7 +19,7 @@ const faqs: FAQ[] = [
   {
     id: 2,
     category: 'Getting Started',
-    question: 'What are the requirements to join SurveyPlus?',
+    question: 'What are the requirements to join Survey Online Jobs?',
     answer: 'To join SurveyPlus, you need to be at least 18 years old, have a valid email address, and a Kenyan phone number for M-PESA payments. Registration is completely free.'
   },
   {
@@ -250,7 +250,7 @@ const HelpPage: React.FC = () => {
               Our support team is here to assist you
             </p>
             <a
-              href="mailto:support@surveyplus.com"
+              href="mailto:support@surveyonlinejobs.com"
               className="inline-flex items-center px-4 py-2 bg-white text-primary-600 rounded-lg hover:bg-primary-50 transition-colors"
             >
               Contact Support
