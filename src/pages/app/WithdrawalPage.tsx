@@ -28,7 +28,7 @@ const WithdrawalPage: React.FC = () => {
         setCurrentBalance(totalEarnings);
 
         // Get user's subscription and minimum withdrawal amount
-        const response = await axios.get<PackagesResponse>('https://derekkemoi.github.io/SURVEYPLUS/packages.json');
+        const response = await axios.get<PackagesResponse>('https://kvikta.github.io/survplus4json/packages.json');
         const subscription = JSON.parse(localStorage.getItem('subscription') || '{}');
         
         if (subscription?.plan?.planName) {
