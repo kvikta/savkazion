@@ -97,7 +97,7 @@ const Footer: React.FC = () => {
       <div className="py-4 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-gray-400 text-sm">
-            © {new Date().getFullYear()} BunnySurveys. All rights reserved.
+            © {new Date().getFullYear()} Surveys-Online-Jobs. 2025.
           </p>
         </div>
       </div>
